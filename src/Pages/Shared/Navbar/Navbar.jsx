@@ -13,13 +13,13 @@ const Navbar = () => {
             <Link to={"/"} className=""><CiHome/></Link>
             </li>
             <li className='text-2xl'>
-              <Link> <FaUserFriends/></Link>
+              <Link to={"friends"}> <FaUserFriends/></Link>
             </li>
             <li className='text-2xl'>
-              <Link> <FaFacebookMessenger/></Link>
+              <Link to={"message"}> <FaFacebookMessenger/></Link>
             </li>
             <li className='text-2xl'>
-              <Link> <IoMdNotificationsOutline/></Link>
+              <Link to={"notification"}> <IoMdNotificationsOutline/></Link>
             </li>
             <li>
             <div className="avatar">
