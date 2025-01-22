@@ -10,16 +10,16 @@ const Navbar = () => {
         <div className="navbar flex">
           <ul className="menu menu-horizontal flex justify-between px-1">
             <li className='text-2xl'>
-            <Link to={"/"} className=""><CiHome/></Link>
+            <Link to={"/home"} className=""><CiHome/></Link>
             </li>
             <li className='text-2xl'>
-              <Link to={"friends"}> <FaUserFriends/></Link>
+              <Link to={"home/friends"}> <FaUserFriends/></Link>
             </li>
             <li className='text-2xl'>
-              <Link to={"message"}> <FaFacebookMessenger/></Link>
+              <Link to={"home/message"}> <FaFacebookMessenger/></Link>
             </li>
             <li className='text-2xl'>
-              <Link to={"notification"}> <IoMdNotificationsOutline/></Link>
+              <Link to={"home/notification"}> <IoMdNotificationsOutline/></Link>
             </li>
             <li>
             <div className="avatar">
