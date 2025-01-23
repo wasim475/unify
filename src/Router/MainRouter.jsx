@@ -14,7 +14,7 @@ const MainRouter = () => {
         <Route path="/" element={<RootLayout />}>
           <Route path="registration" element={<Register />} />
           <Route path="login" element={<Login />} />
-          <Route path="/home" element={<MainLayout />}>
+          <Route path="home" element={<MainLayout />}>
             <Route path="friends" element={<Friend />} />
             <Route path="message" element={<Message />} />
             <Route path="notification" element={<Notification />} />
